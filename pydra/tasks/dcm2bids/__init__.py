@@ -30,11 +30,21 @@ class Dcm2BidsSpec(pydra.specs.ShellSpec):
     """Specifications for dcm2bids."""
 
     dicom_dir: os.PathLike = attrs.field(
-        metadata={"help_string": "DICOM directory", "mandatory": True, "argstr": "-d", "xor": {"dicom_dirs"}}
+        metadata={
+            "help_string": "DICOM directory",
+            "mandatory": True,
+            "argstr": "-d",
+            "xor": {"dicom_dirs"},
+        }
     )
 
     dicom_dirs: ty.Iterable[os.PathLike] = attrs.field(
-        metadata={"help_string": "DICOM directories", "mandatory": True, "argstr": "-d...", "xor": {"dicom_dir"}}
+        metadata={
+            "help_string": "DICOM directories",
+            "mandatory": True,
+            "argstr": "-d...",
+            "xor": {"dicom_dir"},
+        }
     )
 
     participant_id: str = attrs.field(
@@ -46,7 +56,11 @@ class Dcm2BidsSpec(pydra.specs.ShellSpec):
     )
 
     config_file: os.PathLike = attrs.field(
-        metadata={"help_string": "JSON configuration file", "mandatory": True, "argstr": "-c"}
+        metadata={
+            "help_string": "JSON configuration file",
+            "mandatory": True,
+            "argstr": "-c",
+        }
     )
 
     output_dir: os.PathLike = attrs.field(

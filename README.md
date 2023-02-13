@@ -41,6 +41,12 @@ To fix linting issues:
 hatch run lint:fix
 ```
 
+To check the documentation:
+
+```console
+hatch run docs:serve
+```
+
 ## License
 
 `pydra-dcm2bids` is distributed under the terms of the [Apache License 2.0][license] license.

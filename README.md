@@ -44,7 +44,7 @@ hatch run lint:fix
 To check the documentation:
 
 ```console
-hatch run docs:serve
+hatch run docs:serve --open-browser
 ```
 
 ## License

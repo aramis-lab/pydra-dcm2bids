@@ -23,12 +23,12 @@ dependencies = [
 ]
 [envs.lint.scripts]
 all = [
-  "black --check --diff {args:.}",
-  "isort --check --diff {args:.}",
+  "black --check --diff .",
+  "isort --check --diff .",
 ]
 fix = [
-  "black --quiet {args:.}",
-  "isort --quiet {args:.}",
+  "black --quiet .",
+  "isort --quiet .",
 ]
 
 [envs.docs]

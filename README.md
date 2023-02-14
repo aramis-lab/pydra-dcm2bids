@@ -30,6 +30,7 @@ task = dcm2bids.Dcm2Bids(
     dicom_dir="/path/to/dicom/dir",
     output_dir="/path/to/bids/dir",
     config_file="/path/to/config/file.json",
+    participant_id="sub-01",
 )
 
 result = task()

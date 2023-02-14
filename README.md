@@ -21,6 +21,20 @@ organized as [BIDS][bids].
 pip install pydra-dcm2bids
 ```
 
+## Usage
+
+```python
+from pydra.tasks import dcm2bids
+
+task = dcm2bids.Dcm2Bids(
+    dicom_dir="/path/to/dicom/dir",
+    output_dir="/path/to/bids/dir",
+    config_file="/path/to/config/file.json",
+)
+
+result = task()
+```
+
 ## Development
 
 This project is managed with [Hatch][hatch]:

@@ -35,6 +35,8 @@ task = dcm2bids.Dcm2Bids(
 result = task()
 ```
 
+You may check the following example of a [configuration file][dcm2bids-config-file].
+
 ## Development
 
 This project is managed with [Hatch][hatch]:
@@ -71,5 +73,6 @@ hatch run docs:serve --open-browser
 [pydra]: https://pydra.readthedocs.io/
 [dcm2bids]: https://unfmontreal.github.io/Dcm2Bids/
 [bids]: https://bids-specification.readthedocs.io/
+[dcm2bids-config-file]: https://unfmontreal.github.io/Dcm2Bids/docs/how-to/create-config-file/
 [hatch]: https://hatch.pypa.io/
 [license]: https://spdx.org/licenses/Apache-2.0.html

@@ -32,7 +32,7 @@ fix = [
 ]
 
 [envs.docs]
-detached = true
+template = "docs"
 dependencies = [
   "pydata-sphinx-theme",
   "sphinx <6",

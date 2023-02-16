@@ -12,7 +12,7 @@ config = SphinxConfig(globalns=globals())
 
 project = config.name
 author = config.author
-copyright = f'2023, {author}'
+copyright = f'2023, The ARAMIS Lab'
 release = config.version
 
 # -- General configuration ---------------------------------------------------

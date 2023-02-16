@@ -11,7 +11,7 @@ requires-python = ">=3.7"
 license = "Apache-2.0"
 keywords = ["pydra", "dicom", "bids"]
 authors = [
-  { name = "Ghislain Vaillant", email = "ghisvail@gmail.com" },
+  { name = "Ghislain Vaillant", email = "ghislain.vaillant@icm-institute.org" },
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",

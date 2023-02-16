@@ -33,9 +33,9 @@ dependencies = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/ghisvail/pydra-dcm2bids#readme"
-Issues = "https://github.com/ghisvail/pydra-dcm2bids/issues"
-Source = "https://github.com/ghisvail/pydra-dcm2bids"
+Documentation = "https://aramis-lab.github.io/pydra-dcm2bids"
+Issues = "https://github.com/aramis-lab/pydra-dcm2bids/issues"
+Source = "https://github.com/aramis-lab/pydra-dcm2bids"
 
 [tool.coverage.run]
 branch = true

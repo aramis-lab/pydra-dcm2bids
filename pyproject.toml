@@ -29,7 +29,7 @@ classifiers = [
 ]
 dependencies = [
   "pydra >=0.21",
-  "dcm2bids >=2.1,<3",
+  "attrs >=22.1",
 ]
 
 [project.urls]

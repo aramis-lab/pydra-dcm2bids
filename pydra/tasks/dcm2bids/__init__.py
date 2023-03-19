@@ -1,4 +1,4 @@
-"""Pydra tasks for dcm2niix.
+"""Pydra tasks for dcm2bids.
 
 >>> from pydra.tasks.dcm2bids import Dcm2Bids
 

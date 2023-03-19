@@ -3,7 +3,6 @@ only-include = ["pydra/tasks/dcm2bids"]
 
 [envs.default]
 dependencies = [
-  "coverage[toml] <7",
   "pytest",
   "pytest-cov",
 ]

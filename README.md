@@ -21,8 +21,14 @@ organized as [BIDS][bids].
 pip install pydra-dcm2bids
 ```
 
-A separate installation of `dcm2bids` is required to use this package.
+A separate installation of `dcm2bids` and `dcm2niix` is required to use this package.
 Please review the following [instructions][dcm2bids-install].
+
+`dcm2bids` can be installed alongside `pydra-dcm2bids` with:
+
+```console
+pip install 'pydra-dcm2bids[all]'
+```
 
 ## Usage
 

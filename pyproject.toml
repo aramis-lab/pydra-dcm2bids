@@ -32,6 +32,9 @@ dependencies = [
   "attrs >=22.1",
 ]
 
+[project.optional-dependencies]
+all = ["dcm2bids >=2.1,<3"]
+
 [project.urls]
 Documentation = "https://aramis-lab.github.io/pydra-dcm2bids"
 Issues = "https://github.com/aramis-lab/pydra-dcm2bids/issues"

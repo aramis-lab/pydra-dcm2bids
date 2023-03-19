@@ -3,7 +3,7 @@
 [![PyPI - Version][pypi-version]][pypi-project]
 [![PyPI - Python Version][pypi-pyversions]][pypi-project]
 
----
+----
 
 Pydra tasks for dcm2bids.
 
@@ -20,6 +20,9 @@ organized as [BIDS][bids].
 ```console
 pip install pydra-dcm2bids
 ```
+
+A separate installation of `dcm2bids` is required to use this package.
+Please review the following [instructions][dcm2bids-install].
 
 ## Usage
 
@@ -69,11 +72,21 @@ hatch run docs:serve --open-browser
 `pydra-dcm2bids` is distributed under the terms of the [Apache License, Version 2.0][license].
 
 [pypi-project]: https://pypi.org/project/pydra-dcm2bids
+
 [pypi-version]: https://img.shields.io/pypi/v/pydra-dcm2bids.svg
+
 [pypi-pyversions]: https://img.shields.io/pypi/pyversions/pydra-dcm2bids.svg
+
 [pydra]: https://pydra.readthedocs.io/
+
 [dcm2bids]: https://unfmontreal.github.io/Dcm2Bids/
+
 [bids]: https://bids-specification.readthedocs.io/
+
+[dcm2bids-install]: https://unfmontreal.github.io/Dcm2Bids/docs/get-started/install/
+
 [dcm2bids-config-file]: https://unfmontreal.github.io/Dcm2Bids/docs/how-to/create-config-file/
+
 [hatch]: https://hatch.pypa.io/
+
 [license]: https://spdx.org/licenses/Apache-2.0.html

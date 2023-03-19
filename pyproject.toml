@@ -54,12 +54,7 @@ addopts = [
   "--doctest-modules",
   "--doctest-continue-on-failure",
 ]
-testpaths = ["pydra", "tests"]
-
-[tool.black]
-extend-exclude = "docs"
+testpaths = ["pydra"]
 
 [tool.isort]
 profile = "black"
-extend_skip = ["docs"]
-skip_gitignore = true

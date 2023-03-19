@@ -22,12 +22,12 @@ dependencies = [
 ]
 [envs.lint.scripts]
 all = [
-  "black --check --diff .",
-  "isort --check --diff .",
+  "black --check --diff pydra",
+  "isort --check --diff pydra",
 ]
 fix = [
-  "black --quiet .",
-  "isort --quiet .",
+  "black --quiet pydra",
+  "isort --quiet pydra",
 ]
 
 [envs.docs]

@@ -66,7 +66,7 @@ hatch run docs:serve --open-browser
 
 ## License
 
-`pydra-dcm2bids` is distributed under the terms of the [Apache License 2.0][license] license.
+`pydra-dcm2bids` is distributed under the terms of the [Apache License, Version 2.0][license].
 
 [pypi-project]: https://pypi.org/project/pydra-dcm2bids
 [pypi-version]: https://img.shields.io/pypi/v/pydra-dcm2bids.svg

@@ -2,6 +2,7 @@
 
 [![PyPI - Version][pypi-version]][pypi-project]
 [![PyPI - Python Version][pypi-pyversions]][pypi-project]
+[![PyPI - Downloads][pypi-downloads]][pypi-project]
 ![][status-docs]
 ![][status-test]
 
@@ -84,6 +85,8 @@ hatch run docs:serve --open-browser
 [pypi-version]: https://img.shields.io/pypi/v/pydra-dcm2bids.svg
 
 [pypi-pyversions]: https://img.shields.io/pypi/pyversions/pydra-dcm2bids.svg
+
+[pypi-downloads]: https://static.pepy.tech/badge/pydra-dcm2bids
 
 [status-docs]: https://github.com/aramis-lab/pydra-dcm2bids/actions/workflows/docs.yaml/badge.svg
 

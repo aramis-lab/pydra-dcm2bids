@@ -30,7 +30,7 @@ fix = [
 [envs.docs]
 template = "docs"
 dependencies = [
-  "pydata-sphinx-theme",
+  "pydata-sphinx-theme>=0.13",
   "sphinx <7",
   "sphinx-autobuild",
   "sphinx-pyproject",

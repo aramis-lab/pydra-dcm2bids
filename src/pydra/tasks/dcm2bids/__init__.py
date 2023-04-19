@@ -47,13 +47,9 @@ class Dcm2BidsSpec(pydra.specs.ShellSpec):
         }
     )
 
-    participant_id: str = attrs.field(
-        metadata={"help_string": "participant ID", "mandatory": True, "argstr": "-p"}
-    )
+    participant_id: str = attrs.field(metadata={"help_string": "participant ID", "mandatory": True, "argstr": "-p"})
 
-    session_id: str = attrs.field(
-        metadata={"help_string": "session ID", "argstr": "-s"}
-    )
+    session_id: str = attrs.field(metadata={"help_string": "session ID", "argstr": "-s"})
 
     config_file: os.PathLike = attrs.field(
         metadata={
@@ -63,9 +59,7 @@ class Dcm2BidsSpec(pydra.specs.ShellSpec):
         }
     )
 
-    output_dir: os.PathLike = attrs.field(
-        metadata={"help_string": "output BIDS directory", "argstr": "-o"}
-    )
+    output_dir: os.PathLike = attrs.field(metadata={"help_string": "output BIDS directory", "argstr": "-o"})
 
 
 class Dcm2Bids(pydra.engine.ShellCommandTask):

@@ -1,16 +1,13 @@
 [build.targets.wheel]
 only-include = ["pydra/tasks/dcm2bids"]
+sources = ["src"]
 
 [envs.default]
-dependencies = [
-  "pytest",
-  "pytest-cov",
-]
+dependencies = ["pytest"]
 [envs.default.scripts]
-cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=pydra --cov=tests {args}"
-no-cov = "cov --no-cov {args}"
+test = "pytest {args:src}"
 
-[[envs.test.matrix]]
+[[envs.all.matrix]]
 python = ["3.7", "3.8", "3.9", "3.10", "3.11"]
 
 [envs.lint]
@@ -22,12 +19,12 @@ dependencies = [
 ]
 [envs.lint.scripts]
 all = [
-  "black --check --diff pydra",
-  "isort --check --diff pydra",
+  "black --check --diff {args:src}",
+  "isort --check --diff {args:src}",
 ]
 fix = [
-  "black --quiet pydra",
-  "isort --quiet pydra",
+  "black --quiet {args:src}",
+  "isort --quiet {args:src}",
 ]
 
 [envs.docs]

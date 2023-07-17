@@ -1,5 +1,5 @@
 [build.targets.wheel]
-only-include = ["pydra/tasks/dcm2bids"]
+only-include = ["src/pydra/tasks/dcm2bids"]
 sources = ["src"]
 
 [envs.default]
